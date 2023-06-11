@@ -1,5 +1,3 @@
-Sure! Here's an updated version of the API documentation with the addition of the JWT secret being stored in the `.env` file:
-
 # Blog API
 
 This API is built using Express and implements a GraphQL endpoint for a blog application. It provides functionality for user authentication, post management, and image uploading.
