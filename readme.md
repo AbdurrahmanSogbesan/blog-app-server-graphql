@@ -1,6 +1,16 @@
 # Blog GraphQL API
 
+
+
+## About
 This API is built using Express and implements a GraphQL endpoint for a blog application. It provides functionality for user authentication, post management, and image uploading.
+
+## Preview
+<p float="middle">
+  <img width="49%" alt="image" src="https://github.com/AbdurrahmanSogbesan/blog-app-server-graphql/assets/64173776/5c815ab3-36f0-4c96-87e7-d4b07057e0a8">
+  <img width="49%" alt="image" src="https://github.com/AbdurrahmanSogbesan/blog-app-server-graphql/assets/64173776/5e12f2d5-5fcf-4151-8cef-198da094c33f">
+</p>
+
 
 ## Prerequisites
 
