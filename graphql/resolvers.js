@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const bcrypt = require("bcryptjs");
 const validator = require("validator");
 const jwt = require("jsonwebtoken");
@@ -81,7 +83,7 @@ module.exports = {
         userId: user._id.toString(),
         email: user.email,
       },
-      "somesupersecretsecret",
+      process.env.JWT_SECRET,
       { expiresIn: "1h" }
     );
 

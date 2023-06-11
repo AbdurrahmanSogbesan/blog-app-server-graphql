@@ -1,5 +1,5 @@
 {
-  "name": "3---rest-api-intro",
+  "name": "blog-app-graphql-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
+    "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
     "express-validator": "^6.15.0",

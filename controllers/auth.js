@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { validationResult } = require("express-validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
@@ -66,7 +67,7 @@ exports.login = async (req, res, next) => {
         email: user.email,
         userId: user._id.toString(),
       },
-      "somesupersecretsecret",
+      process.env.JWT_SECRET,
       { expiresIn: "1h" }
     );
 

@@ -1,3 +1,4 @@
+require("dotenv").config();
 const jwt = require("jsonwebtoken");
 
 module.exports = (req, res, next) => {
@@ -13,7 +14,7 @@ module.exports = (req, res, next) => {
   let decodedToken;
   try {
     // Verify token with the secret (used in initialization in auth.js login controller)
-    decodedToken = jwt.verify(token, "somesupersecretsecret");
+    decodedToken = jwt.verify(token, process.env.JWT_SECRET);
   } catch (error) {
     req.isAuth = false;
     return next();
