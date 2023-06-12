@@ -1,4 +1,4 @@
-# Blog GraphQL API
+# Blog App GraphQL API
 
 
 
