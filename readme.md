@@ -22,8 +22,8 @@ This API is built using Express and implements a GraphQL endpoint for a blog app
 1. Clone the repository:
 
 ```shell
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/AbdurrahmanSogbesan/blog-app-server-graphql.git
+cd blog-app-server-graphql
 ```
 
 2. Install the dependencies:
